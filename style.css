@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url("./irac.gif");
+   background-position: left center;
+    background-repeat: no-repeat;
+    background-position-x: 25%;
+ 
+    width: 100vw;
+    height: 100vh;
+    background-color:#412d9a;
+ 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    
+
+}
+
+
+#button {
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: rgb(42, 249, 128);
+    font-family: sans-serif;
+    font-weight: 600;
+    color:black;
+}
